@@ -1,7 +1,8 @@
 from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
+from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from pathlib import Path
 from config import DEFAULT_FOLDERS
+from utils.get_absolute_path import get_absolute_path
 
 import os
 import time
@@ -37,7 +38,7 @@ class AutomatedMaid(FileSystemEventHandler):
             if not folder_exists:
                 os.mkdir(Path(dir_path))
 
-    def generate_folder(self, filepath):
+    def generate_folder(self, filepath: str):
         """
         Description:
             Create a folder in the given base_url
@@ -48,7 +49,6 @@ class AutomatedMaid(FileSystemEventHandler):
 
         Returns:
             None
-
         """
 
         try:
@@ -57,7 +57,7 @@ class AutomatedMaid(FileSystemEventHandler):
             print('Folder already exists!')
             print(error)
 
-    def check_folder_existence(self, folder_path):
+    def check_folder_existence(self, folder_path: str):
         """
         Description:
             Checks for the existence of a folder in our parent dir.
@@ -73,81 +73,7 @@ class AutomatedMaid(FileSystemEventHandler):
         folder_exists = True if os.path.exists(folder_path) else False
         return folder_exists
 
-    def get_absolute_path(self, path):
-        """
-        Description:
-            Gets the absoulte path of a file or folder
-
-        Args:
-            path(string): Path to our file
-
-        Returns:
-            String: The absolute path.
-        """
-
-        return f'{self.dir_to_watch}/{path}'
-
-    def dir_cleanup(self):
-        """
-        Description:
-            Cleans up all the empty folders present in our DEFAULT_FOLDERS
-        """
-
-        immediate_dir = self.get_immediate_dir()
-
-        for directory in immediate_dir:
-            if self.is_dir(directory):
-                pass
-
-    def cleanup_handler(self, directory):
-        """
-        Description:
-            Cleans up empty directories
-        """
-
-        return os.rmdir(Path(self.get_absolute_path(directory)))
-
-    def is_empty_dir(self, directory):
-        """
-        Description:
-            Checks if the folder is empty
-        """
-
-        # Check if the length of os.listdir is 0.
-        # PS - os.listdir returns an array
-        # References -https://docs.python.org/2/library/os.html?highlight=os%20listdir#os.listdir
-        return len(os.listdir(self.get_absolute_path(directory))) == 0
-
-    def is_dir(self, directory):
-        """
-        Description:
-            Checks if the path is a directory
-
-        Args:
-            directory(string): The directory name
-
-        Returns:
-            Boolean - True or False
-        """
-
-        return os.path.isdir(self.get_absolute_path(directory))
-
-    def get_immediate_dir(self, directory='.'):
-        """
-        Description:
-            Gets all the immediate directories of the base path
-
-        Args:
-            directory(string): Directory we want to look into, if none is passed
-            the current directory is then used
-
-        Returns:
-            Array: Returns an array of all directories
-        """
-
-        return os.listdir(self.get_absolute_path(directory))
-
-    def get_file_extension(self, filename):
+    def get_file_extension(self, filename: str):
         """
         Description:
             Gets the given extension for a file
@@ -162,7 +88,7 @@ class AutomatedMaid(FileSystemEventHandler):
         # Returns the last item in the array incase of muliple dot operator.
         return filename.split('.')[-1]
 
-    def on_modified(self, event):
+    def on_modified(self, event: FileModifiedEvent):
         """
         Description:
             Event is invoked whenever the directory being watched is modified.
@@ -178,7 +104,7 @@ class AutomatedMaid(FileSystemEventHandler):
         Returns:
             None
         """
-        return super().on_modified(event)
+        print('Modified', event.src_path)
 
 
 if __name__ == '__main__':
@@ -186,4 +112,14 @@ if __name__ == '__main__':
     maid = AutomatedMaid()
     ext = maid.get_file_extension('dan.hdna.mp3')
     print(ext)
-    print(maid.is_empty_dir('.'))
+
+    observer = Observer()
+    observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
+    observer.start()
+
+    try:
+        pass
+    except KeyboardInterrupt:
+        observer.stop()
+
+    observer.join()
