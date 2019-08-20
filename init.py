@@ -11,13 +11,23 @@ import settings
 
 class AutomatedMaid(FileSystemEventHandler):
     """
-    Description:
+    Description
+    -----------
         She takes care of cleaning up files added into our downloads folder
+
+    Attributes
+    ----------
+        dir_to_watch : str
+            a string that holds the path to te folder we want to watch
+
+        destination_dir : str
+            a string holding the destination folder we want our files in
     """
 
     def __init__(self):
         """
-        Description:
+        Description
+        -----------
             Sets our default variable path.
         """
 
@@ -26,7 +36,8 @@ class AutomatedMaid(FileSystemEventHandler):
 
     def create_default_folders(self):
         """
-        Description:
+        Description
+        -----------
             Create the defaut folders specified in the settings.py file
         """
 
@@ -40,15 +51,23 @@ class AutomatedMaid(FileSystemEventHandler):
 
     def generate_folder(self, filepath: str):
         """
-        Description:
+        Description
+        -----------
             Create a folder in the given base_url
 
-        Args:
-            filepath(string): Path to the directory that needs to be
-            generated
+        Parameters
+        ----------
+            filepath : str
+                Path to the directory that needs to be generated
 
-        Returns:
+        Returns
+        -------
             None
+
+        Raises
+        ------
+            OSError
+                If the folder already exists
         """
 
         try:
@@ -57,32 +76,41 @@ class AutomatedMaid(FileSystemEventHandler):
             print('Folder already exists!')
             print(error)
 
-    def check_folder_existence(self, folder_path: str):
+    def check_folder_existence(self, folder_path: str) -> bool:
         """
-        Description:
+        Description
+        -----------
             Checks for the existence of a folder in our parent dir.
 
-        Args:
-            folder_path(string): Path to the folder we wish to verify its
-            existence
+        Parameters
+        ----------
+            folder_path : str
+                Path to the folder we wish to verify its existence
 
-        Returns:
-            Boolean - Returns either True or False
+        Returns
+        -------
+            folder_exists : bool
+                Returns either True or False
         """
 
         folder_exists = True if os.path.exists(folder_path) else False
         return folder_exists
 
-    def get_file_extension(self, filename: str):
+    def get_file_extension(self, filename: str) -> str:
         """
-        Description:
+        Description
+        -----------
             Gets the given extension for a file
 
-        Args:
-            filename(string): The file's name
+        Parameters
+        ----------
+            filename : str
+                The file's name
 
-        Returns:
-            extension_type: The file extension type given
+        Returns
+        -------
+            extension_type : str
+                The file extension type given
         """
 
         # Returns the last item in the array incase of muliple dot operator.
@@ -90,20 +118,25 @@ class AutomatedMaid(FileSystemEventHandler):
 
     def on_modified(self, event: FileModifiedEvent):
         """
-        Description:
+        Description
+        -----------
             Event is invoked whenever the directory being watched is modified.
 
-        Args:
-            event(FileModifiedEvent): The event that represents file/directory
-            modification
+        Parameters
+        ----------
+            event : FileModifiedEvent
+                The event that represents file/directory modification
 
-        References:
+        References
+        ----------
             FileModifiedEvent:
                 https://pythonhosted.org/watchdog/api.html#watchdog.events.FileSystemEventHandler
 
-        Returns:
+        Returns
+        -------
             None
         """
+
         print('Modified', event.src_path)
 
 

@@ -1,15 +1,18 @@
 import os
 
 
-def get_absolute_path(path: str):
+def get_absolute_path(path: str) -> str:
     """
-    Description:
+    Description
+    -----------
         Gets the absoulte path of a file or folder
 
-    Args:
+    Parameters
+    -----------
         path(string): Path to our file
 
-    Returns:
+    Returns
+    --------
         String: The absolute path.
     """
 
