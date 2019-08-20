@@ -7,6 +7,7 @@ from utils.get_absolute_path import get_absolute_path
 import os
 import time
 import settings
+from logger import Logger
 
 
 class AutomatedMaid(FileSystemEventHandler):
@@ -143,16 +144,18 @@ class AutomatedMaid(FileSystemEventHandler):
 if __name__ == '__main__':
 
     maid = AutomatedMaid()
-    ext = maid.get_file_extension('dan.hdna.mp3')
-    print(ext)
+    # ext = maid.get_file_extension('dan.hdna.mp3')
+    # print(ext)
 
-    observer = Observer()
-    observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
-    observer.start()
+    # observer = Observer()
+    # observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
+    # observer.start()
 
-    try:
-        pass
-    except KeyboardInterrupt:
-        observer.stop()
+    # try:
+    #     pass
+    # except KeyboardInterrupt:
+    #     observer.stop()
 
-    observer.join()
+    # observer.join()
+    logger = Logger()
+    logger.write('Works', 'info')
