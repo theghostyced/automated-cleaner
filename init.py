@@ -156,6 +156,14 @@ if __name__ == '__main__':
     # except KeyboardInterrupt:
     #     observer.stop()
 
-    # observer.join()
-    logger = Logger()
-    logger.write('Works', 'info')
+    # # observer.join()
+    # logger = Logger()
+    # logger.write('Works', 'info')
+
+    def dummy():
+        print('Print here')
+
+    from scheduler import Scheduler
+
+    schedule = Scheduler()
+    schedule.run_every_minute(dummy).start()
