@@ -64,4 +64,7 @@ class Logger:
         -------
             None
         """
-        self.LOGGING_LEVELS[type](msg)
+        try:
+            self.LOGGING_LEVELS[type](msg)
+        except:
+            raise('Invalid logging level provided!')

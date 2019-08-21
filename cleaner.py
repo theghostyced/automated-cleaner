@@ -1,6 +1,7 @@
 from utils.get_absolute_path import get_absolute_path
 from pathlib import Path
 from typing import List
+from logger import Logger
 
 import os
 
@@ -11,6 +12,16 @@ class Cleaner():
     -----------
         Handles our empty directory cleanup
     """
+
+    def __init__(self):
+        """
+        Descritpion
+        -----------
+            Initializes our cleaner class
+        """
+
+        self.logger = Logger()
+        self.logger.write(f'Initialising the cleaner')
 
     def get_immediate_dir(self, directory: str='.') -> List[str]:
         """
@@ -29,20 +40,26 @@ class Cleaner():
                 Returns an array of all directories
         """
 
+        self.logger.write(f'Checking the immediate directories of the {directory} folder')
         return os.listdir(get_absolute_path(directory))
 
-    def dir_cleanup(self):
+    def cleanup(self, directory: str):
         """
         Description
         -----------
             Cleans up all the empty folders present in our DEFAULT_FOLDERS
+
+        Parameters
+        ----------
+            directory : str
+                The directory we would love to clean up
         """
 
-        immediate_dir = self.get_immediate_dir()
+        immediate_dir = self.get_immediate_dir(directory)
 
-        for directory in immediate_dir:
-            if self.is_dir(directory):
-                self.cleanup_handler(directory) if self.is_empty_dir(directory) else None
+        for folder in immediate_dir:
+            if self.is_dir(folder):
+                self.cleanup_handler(folder) if self.is_empty_dir(folder) else None
 
     def cleanup_handler(self, directory: str) -> bool:
         """
@@ -57,15 +74,17 @@ class Cleaner():
 
         Returns
         -------
-            Boolean: True or False
+            bool
         """
 
         try:
+            self.logger.write(f'Deleting the {directory} folder')
             os.rmdir(Path(get_absolute_path(directory)))
             return True
         except OSError as error:
             print("Folder isn't empty")
             print(error)
+            self.logger.write(f'Could not delete the {directory} folder. {error} thrown', 'exception')
             return False
 
     def is_empty_dir(self, directory: str) -> bool:
@@ -83,6 +102,8 @@ class Cleaner():
         -------
             bool
         """
+
+        self.logger.write(f'Checking if the {directory} is empty')
 
         # Check if the length of os.listdir is 0.
         # PS - os.listdir returns an array
@@ -105,10 +126,5 @@ class Cleaner():
             bool
         """
 
+        self.logger.write(f'Checking if the given path {directory} is a valid directory')
         return os.path.isdir(get_absolute_path(directory))
-
-# REQUIREMENTS
-# 1. Get the immediate folder dir.
-# 2. Check each folder if it is empty
-# 3. Remove those who are empty and keep those that aren't
-# 4. Log the deleted folders.

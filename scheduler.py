@@ -1,3 +1,5 @@
+from logger import Logger
+
 import schedule
 import datetime
 
@@ -22,8 +24,9 @@ class Scheduler:
         """
         self.schedule = schedule
         self.schedule_tag = 'job'
+        self.logger = Logger()
 
-    def run_daily(self, task):
+    def run_daily(self, task: str):
         """
         Descritpion
         -----------
@@ -42,12 +45,12 @@ class Scheduler:
 
         tag = f'{self.schedule_tag}_{datetime.datetime.now()}'
 
-        job = self.schedule.every().day.do(task).tag(tag)
+        self.schedule.every().day.do(task).tag(tag)
 
-        # Log invoked job here
+        self.logger.write(f'Run job {tag} daily.')
         return self
 
-    def run_daily_at_time(self, task, time):
+    def run_daily_at_time(self, task: str, time: str):
         """
         Descritpion
         -----------
@@ -70,28 +73,8 @@ class Scheduler:
         tag = f'{self.schedule_tag}_{datetime.datetime.now()}'
 
         self.schedule.every().day.at(time).do(task).tag(tag)
-        return self
 
-    def run_every_minute(self, task):
-        """
-        Descritpion
-        -----------
-            Run the task every minute
-
-        Parameters
-        ----------
-            task : str
-                Script we want executed daily
-
-        Returns
-        -------
-            self : Scheduler Instance
-                Returns the scheduler instance
-        """
-
-        tag = f'{self.schedule_tag}_{datetime.datetime.now()}'
-
-        self.schedule.every().minute.do(task).tag(tag)
+        self.logger.write(f'Run job {tag} daily at {time} time')
         return self
 
     def start(self):
@@ -106,9 +89,10 @@ class Scheduler:
         """
 
         while True:
+            self.logger.write('Starting up all jobs')
             self.schedule.run_pending()
 
-    def clear_jobs(self, tag=None):
+    def clear_jobs(self, tag: str | bool=None):
         """
         Description
         -----------
@@ -117,7 +101,7 @@ class Scheduler:
 
         Parameters
         ----------
-            tag : str
+            tag : str | bool
                 Tag identifier for a job
 
         Returns
@@ -125,4 +109,5 @@ class Scheduler:
         None
         """
 
+        self.logger.write('Clearing all jobs') if not tag else self.logger.write(f'Clearing {tag} job')
         self.schedule.clear(tag)

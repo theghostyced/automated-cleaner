@@ -4,5 +4,6 @@
   "python.linting.pep8Enabled": true,
   "python.linting.pep8Args": [ "--ignore=E501" ],
   "editor.tabSize": 4,
-  "editor.insertSpaces": true
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true
 }
