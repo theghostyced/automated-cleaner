@@ -33,7 +33,8 @@ class Logger:
         # Path to our log file
         self.log_filename = Path('.') / 'logs' / 'am_log.log'
 
-        logging.basicConfig(format=LOGGING_FORMAT, level=DEFAULT_LOGGING_LEVEL,
+        logging.basicConfig(format=LOGGING_FORMAT,
+                            level=DEFAULT_LOGGING_LEVEL,
                             filename=self.log_filename)
 
         logger = logging.getLogger()
@@ -67,4 +68,4 @@ class Logger:
         try:
             self.LOGGING_LEVELS[type](msg)
         except:
-            raise('Invalid logging level provided!')
+            raise ('Invalid logging level provided!')

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from pathlib import Path
@@ -14,15 +16,15 @@ class AutomatedMaid(FileSystemEventHandler):
     """
     Description
     -----------
-        She takes care of cleaning up files added into our downloads folder
+        She takes care of cleaning up files added into our downloads folder.
 
     Attributes
     ----------
         dir_to_watch : str
-            a string that holds the path to te folder we want to watch
+            a string that holds the path to te folder we want to watch.
 
         destination_dir : str
-            a string holding the destination folder we want our files in
+            a string holding the destination folder we want our files in.
     """
 
     def __init__(self):
@@ -39,7 +41,7 @@ class AutomatedMaid(FileSystemEventHandler):
         """
         Description
         -----------
-            Create the defaut folders specified in the settings.py file
+            Create the defaut folders specified in the settings.py file.
         """
 
         for folder_name in DEFAULT_FOLDERS:
@@ -54,12 +56,12 @@ class AutomatedMaid(FileSystemEventHandler):
         """
         Description
         -----------
-            Create a folder in the given base_url
+            Create a folder in the given base_url.
 
         Parameters
         ----------
             filepath : str
-                Path to the directory that needs to be generated
+                Path to the directory that needs to be generated.
 
         Returns
         -------
@@ -68,7 +70,7 @@ class AutomatedMaid(FileSystemEventHandler):
         Raises
         ------
             OSError
-                If the folder already exists
+                If the folder already exists.
         """
 
         try:
@@ -86,12 +88,12 @@ class AutomatedMaid(FileSystemEventHandler):
         Parameters
         ----------
             folder_path : str
-                Path to the folder we wish to verify its existence
+                Path to the folder we wish to verify its existence.
 
         Returns
         -------
             folder_exists : bool
-                Returns either True or False
+                Returns either True or False.
         """
 
         folder_exists = True if os.path.exists(folder_path) else False
@@ -126,7 +128,7 @@ class AutomatedMaid(FileSystemEventHandler):
         Parameters
         ----------
             event : FileModifiedEvent
-                The event that represents file/directory modification
+                The event that represents file/directory modification.
 
         References
         ----------
@@ -144,6 +146,7 @@ class AutomatedMaid(FileSystemEventHandler):
 if __name__ == '__main__':
 
     maid = AutomatedMaid()
+
     # ext = maid.get_file_extension('dan.hdna.mp3')
     # print(ext)
 
@@ -159,11 +162,3 @@ if __name__ == '__main__':
     # # observer.join()
     # logger = Logger()
     # logger.write('Works', 'info')
-
-    def dummy():
-        print('Print here')
-
-    from scheduler import Scheduler
-
-    schedule = Scheduler()
-    schedule.run_every_minute(dummy).start()

@@ -23,7 +23,7 @@ class Cleaner():
         self.logger = Logger()
         self.logger.write(f'Initialising the cleaner')
 
-    def get_immediate_dir(self, directory: str='.') -> List[str]:
+    def get_immediate_dir(self, directory: str = '.') -> List[str]:
         """
         Description
         -----------
@@ -40,7 +40,8 @@ class Cleaner():
                 Returns an array of all directories
         """
 
-        self.logger.write(f'Checking the immediate directories of the {directory} folder')
+        self.logger.write(
+            f'Checking the immediate directories of the {directory} folder')
         return os.listdir(get_absolute_path(directory))
 
     def cleanup(self, directory: str):
@@ -59,7 +60,8 @@ class Cleaner():
 
         for folder in immediate_dir:
             if self.is_dir(folder):
-                self.cleanup_handler(folder) if self.is_empty_dir(folder) else None
+                self.cleanup_handler(folder) if self.is_empty_dir(
+                    folder) else None
 
     def cleanup_handler(self, directory: str) -> bool:
         """
@@ -84,7 +86,9 @@ class Cleaner():
         except OSError as error:
             print("Folder isn't empty")
             print(error)
-            self.logger.write(f'Could not delete the {directory} folder. {error} thrown', 'exception')
+            self.logger.write(
+                f'Could not delete the {directory} folder. {error} thrown',
+                'exception')
             return False
 
     def is_empty_dir(self, directory: str) -> bool:
@@ -126,5 +130,6 @@ class Cleaner():
             bool
         """
 
-        self.logger.write(f'Checking if the given path {directory} is a valid directory')
+        self.logger.write(
+            f'Checking if the given path {directory} is a valid directory')
         return os.path.isdir(get_absolute_path(directory))

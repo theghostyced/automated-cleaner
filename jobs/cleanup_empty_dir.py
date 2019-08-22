@@ -7,7 +7,7 @@ def empty_dir_cleanup_job():
     """
     Description
     -----------
-        Job to clean up all our empty dir
+        Job to clean up all our empty dir.
     """
 
     cleaner = Cleaner()

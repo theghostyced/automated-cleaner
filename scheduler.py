@@ -8,42 +8,45 @@ class Scheduler:
     """
     Description
     -----------
-        Takes care of setting up cron job
+        Takes care of setting up cron job.
 
     Attributes
     ----------
         cron
-            holds our CronTab instance
+            holds our CronTab instance.
+
+        schedule_tag_prefix
+            prefix we want to assign to all our jobs.
     """
 
     def __init__(self):
         """
         Description
         -----------
-            Initializes our crontab instance
+            Initializes our crontab instance.
         """
         self.schedule = schedule
-        self.schedule_tag = 'job'
+        self.schedule_tag_prefix = 'job'
         self.logger = Logger()
 
     def run_daily(self, task: str):
         """
         Descritpion
         -----------
-            Sets up a daily cron job
+            Sets up a daily cron job.
 
         Parameters
         ----------
             task : str
-                Script we want executed daily
+                Script we want executed daily.
 
         Returns
         -------
-            self : Scheduler Instance
-                Returns the scheduler instance
+            self : Scheduler
+                Returns the scheduler instance.
         """
 
-        tag = f'{self.schedule_tag}_{datetime.datetime.now()}'
+        tag = f'{self.schedule_tag_prefix}_{datetime.datetime.now()}'
 
         self.schedule.every().day.do(task).tag(tag)
 
@@ -54,23 +57,23 @@ class Scheduler:
         """
         Descritpion
         -----------
-            Sets up a daily cron job
+            Sets up a daily cron job.
 
         Parameters
         ----------
             task : str
-                Script we want executed daily
+                Script we want executed daily.
 
             time : str
-                Time of the day the script should run
+                Time of the day the script should run.
 
         Returns
         -------
             self : Scheduler Instance
-                Returns the scheduler instance
+                Returns the scheduler instance.
         """
 
-        tag = f'{self.schedule_tag}_{datetime.datetime.now()}'
+        tag = f'{self.schedule_tag_prefix}_{datetime.datetime.now()}'
 
         self.schedule.every().day.at(time).do(task).tag(tag)
 
@@ -81,7 +84,7 @@ class Scheduler:
         """
         Description
         -----------
-            Begins the scheduled job
+            Begins the scheduled job.
 
         Returns
         -------
@@ -92,22 +95,24 @@ class Scheduler:
             self.logger.write('Starting up all jobs')
             self.schedule.run_pending()
 
-    def clear_jobs(self, tag: str | bool=None):
+    def clear_jobs(self, tag: str | bool = None):
         """
         Description
         -----------
-            Clears the job(s) with the given task else it clears all
+            Clears the job(s) with the given task else it clears all.
             jobs
 
         Parameters
         ----------
             tag : str | bool
-                Tag identifier for a job
+                Tag identifier for a job.
 
         Returns
         -------
-        None
+            None
         """
 
-        self.logger.write('Clearing all jobs') if not tag else self.logger.write(f'Clearing {tag} job')
+        self.logger.write(
+            'Clearing all jobs') if not tag else self.logger.write(
+                f'Clearing {tag} job')
         self.schedule.clear(tag)

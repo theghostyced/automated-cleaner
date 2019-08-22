@@ -5,12 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-pep8 = "*"
 
 [packages]
 watchdog = "*"
 python-dotenv = "*"
 schedule = "*"
+yapf = "*"
 
 [requires]
 python_version = "3.7"

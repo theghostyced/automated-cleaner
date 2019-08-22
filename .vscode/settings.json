@@ -1,9 +1,9 @@
 {
   "python.pythonPath": "/Users/danieleze/.local/share/virtualenvs/automated_download-CHbFtUzW/bin/python",
   "python.linting.pylintEnabled": true,
-  "python.linting.pep8Enabled": true,
   "python.linting.pep8Args": [ "--ignore=E501" ],
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
+  "python.formatting.provider": "yapf",
   "editor.formatOnSave": true
 }
