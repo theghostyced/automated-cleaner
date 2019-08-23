@@ -113,6 +113,24 @@ class Cleaner():
         # PS - os.listdir returns an array
         # References -https://docs.python.org/2/library/os.html?highlight=os%20listdir#os.listdir
         return len(os.listdir(get_absolute_path(directory))) == 0
+    
+    def is_hidden_file(self, directory: str) -> bool:
+        """
+        Descritpion
+        -----------
+            Determines if the file sent is a hidden file or not
+        
+        Parameters
+        ----------
+            directory : str
+                Directory we wish to verify
+        
+        Returns
+        -------
+            bool
+        """
+
+        return False if directory[:1] != '.' else True
 
     def is_dir(self, directory: str) -> bool:
         """

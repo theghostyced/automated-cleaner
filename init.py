@@ -5,11 +5,13 @@ from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from pathlib import Path
 from config import DEFAULT_FOLDERS
 from utils.get_absolute_path import get_absolute_path
+from logger import Logger
+from cleaner import Cleaner
 
 import os
-import time
+import shutil
+import datetime
 import settings
-from logger import Logger
 
 
 class AutomatedMaid(FileSystemEventHandler):
@@ -36,6 +38,8 @@ class AutomatedMaid(FileSystemEventHandler):
 
         self.dir_to_watch = os.getenv("DIR_TO_WATCH")
         self.destination_dir = os.getenv("DESTINATION_DIR")
+        self.logger = Logger()
+        self.cleaner = Cleaner()
 
     def create_default_folders(self):
         """
@@ -140,13 +144,32 @@ class AutomatedMaid(FileSystemEventHandler):
             None
         """
 
-        # Getting the path the event occured in and
-        # spliting by the '/' symbol
-        event_path = event.src_path.split('/')[4]
-        
-        # Verify that the modification was not done in the 
+        try:
+            # Check if the modification occured in a path aside inside the `Downloads`
+            # folder
+            event_path = event.src_path.split('/')[4]
+        except IndexError:
+            # Return the downloads folder since the modification
+            # didnt occur in any other folder
+            event_path = event.src_path.split('/')[3]
+
+        # Verify that the modification was not done in the
         # DEFAULT_FOLDERS
-        
+        if event_path not in DEFAULT_FOLDERS:
+            self.execute_cleanup()
+
+    def execute_cleanup(self):
+        """
+        Description
+        -----------
+            Takes care of the cleanup in the Downloads folder whenever
+            a new file/folder is added to it
+        """
+
+        for filename in self.cleaner.get_immediate_dir():
+            if not self.cleaner.is_hidden_file(filename):
+                if self.cleaner.is_dir(filename):
+                    pass
 
 
 if __name__ == '__main__':

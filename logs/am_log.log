@@ -2,3 +2,9 @@ INFO - 2019-08-20 21:03:25,920 - root - logger - Works
 INFO - 2019-08-23 11:01:57,682 - root - logger - Starting up the observer!!
 INFO - 2019-08-23 11:02:56,675 - root - logger - Starting up the observer!!
 INFO - 2019-08-23 11:03:55,569 - root - logger - Starting up the observer!!
+INFO - 2019-08-23 15:47:36,528 - root - logger - Initialising the cleaner
+INFO - 2019-08-23 15:47:36,573 - root - logger - Starting up the observer!!
+INFO - 2019-08-23 15:48:38,439 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-08-23 15:54:12,284 - root - logger - Initialising the cleaner
+INFO - 2019-08-23 15:54:12,415 - root - logger - Starting up the observer!!
+INFO - 2019-08-23 15:54:19,316 - root - logger - Checking the immediate directories of the . folder
