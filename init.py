@@ -140,25 +140,34 @@ class AutomatedMaid(FileSystemEventHandler):
             None
         """
 
-        print('Modified', event.src_path)
+        # Getting the path the event occured in and
+        # spliting by the '/' symbol
+        event_path = event.src_path.split('/')[4]
+        
+        # Verify that the modification was not done in the 
+        # DEFAULT_FOLDERS
+        
 
 
 if __name__ == '__main__':
 
     maid = AutomatedMaid()
+    logger = Logger()
 
     # ext = maid.get_file_extension('dan.hdna.mp3')
     # print(ext)
 
-    # observer = Observer()
-    # observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
-    # observer.start()
+    observer = Observer()
+    observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
+    observer.start()
 
-    # try:
-    #     pass
-    # except KeyboardInterrupt:
-    #     observer.stop()
+    logger.write(f'Starting up the observer!!')
 
-    # # observer.join()
+    try:
+        pass
+    except KeyboardInterrupt:
+        observer.stop()
+
+    observer.join()
     # logger = Logger()
     # logger.write('Works', 'info')
