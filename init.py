@@ -5,12 +5,12 @@ from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from pathlib import Path
 from config import DEFAULT_FOLDERS
 from utils.get_absolute_path import get_absolute_path
+from utils.get_current_date import get_current_date
 from logger import Logger
 from cleaner import Cleaner
 
 import os
 import shutil
-import datetime
 import settings
 
 
@@ -38,8 +38,19 @@ class AutomatedMaid(FileSystemEventHandler):
 
         self.dir_to_watch = os.getenv("DIR_TO_WATCH")
         self.destination_dir = os.getenv("DESTINATION_DIR")
+
         self.logger = Logger()
         self.cleaner = Cleaner()
+
+        self.EXTENSION_TYPES = {
+            'Music': ['mp3', 'wav', 'aif', 'mid'],
+            'Videos': ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'],
+            'Applications': ['app', 'dmg'],
+            'Documents': ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'],
+            'Archived': ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'],
+            'Torrent Files': ['torrent'],
+            'Images': ['jpg', 'gif', 'png', 'tiff', 'eps']
+        }
 
     def create_default_folders(self):
         """
@@ -103,6 +114,37 @@ class AutomatedMaid(FileSystemEventHandler):
         folder_exists = True if os.path.exists(folder_path) else False
         return folder_exists
 
+    def move_file_to_folder(self, filename: str, dest_path: str) -> bool:
+        """
+        Description
+        -----------
+            Moves filename to the given destination path
+        
+        Parameters
+        ----------
+            file : str
+                The file we wish to move to the folder
+            
+            dest_path : str
+                The destination path that the file would be moved to
+            
+        Returns
+        -------
+            None
+        """
+
+        folder_exist = self.check_folder_existence(dest_path)
+
+        if folder_exist:
+            shutil.move(get_absolute_path(filename), dest_path)
+            self.logger.write(f'Moving {filename} to the {dest_path} path')
+        else:
+            self.logger.write(f'Creating the {dest_path} path')
+            self.generate_folder(dest_path)
+
+            self.logger.write(f'Moving {filename} to the {dest_path} path')
+            shutil.move(get_absolute_path(filename), dest_path)
+
     def get_file_extension(self, filename: str) -> str:
         """
         Description
@@ -122,6 +164,29 @@ class AutomatedMaid(FileSystemEventHandler):
 
         # Returns the last item in the array incase of muliple dot operator.
         return filename.split('.')[-1]
+
+    def determine_file_folder_location(self, extension_type: str) -> str:
+        """
+        Description
+        -----------
+            Gets the appropriate folder via the extension_type
+
+        Parameters
+        ----------
+            extension_type : str
+                The extension type of the file we want to move
+        
+        Returns
+        -------
+            folder_name : str
+                The folder name determined by the folder location
+        """
+
+        for key, value in self.EXTENSION_TYPES.items():
+            if extension_type in value:
+                return key
+
+        return 'Others'    
 
     def on_modified(self, event: FileModifiedEvent):
         """
@@ -166,11 +231,24 @@ class AutomatedMaid(FileSystemEventHandler):
             a new file/folder is added to it
         """
 
-        for filename in self.cleaner.get_immediate_dir():
-            if not self.cleaner.is_hidden_file(filename):
-                if self.cleaner.is_dir(filename):
-                    pass
+        self.create_default_folders()
 
+        for filename in self.cleaner.get_immediate_dir():
+            if filename not in DEFAULT_FOLDERS:
+                if not self.cleaner.is_hidden_file(filename):
+                    if self.cleaner.is_dir(filename) and filename not in DEFAULT_FOLDERS:
+                        self.move_file_to_folder(
+                            filename,
+                            get_absolute_path(f'Folders/{get_current_date()}')
+                        )
+                    else:
+                        extension_type = self.get_file_extension(filename)
+                        folder_location = self.determine_file_folder_location(extension_type)
+
+                        self.move_file_to_folder(
+                            filename,
+                            get_absolute_path(f'{folder_location}/{get_current_date()}')
+                        )
 
 if __name__ == '__main__':
 
