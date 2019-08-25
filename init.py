@@ -3,7 +3,7 @@
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from pathlib import Path
-from config import DEFAULT_FOLDERS
+from config import DEFAULT_FOLDERS, EXTENSION_TYPES
 from utils.get_absolute_path import get_absolute_path
 from utils.get_current_date import get_current_date
 from logger import Logger
@@ -41,16 +41,6 @@ class AutomatedMaid(FileSystemEventHandler):
 
         self.logger = Logger()
         self.cleaner = Cleaner()
-
-        self.EXTENSION_TYPES = {
-            'Music': ['mp3', 'wav', 'aif', 'mid'],
-            'Videos': ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'],
-            'Applications': ['app', 'dmg'],
-            'Documents': ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'],
-            'Archived': ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'],
-            'Torrent Files': ['torrent'],
-            'Images': ['jpg', 'gif', 'png', 'tiff', 'eps']
-        }
 
     def create_default_folders(self):
         """
@@ -162,6 +152,7 @@ class AutomatedMaid(FileSystemEventHandler):
                 The file extension type given
         """
 
+        self.logger.write(f'Checking file extension type of {filename}')
         # Returns the last item in the array incase of muliple dot operator.
         return filename.split('.')[-1]
 
@@ -182,7 +173,10 @@ class AutomatedMaid(FileSystemEventHandler):
                 The folder name determined by the folder location
         """
 
-        for key, value in self.EXTENSION_TYPES.items():
+        for key, value in EXTENSION_TYPES.items():
+            self.logger.write(
+                f'Checking through {value} if {extension_type} exist there')
+
             if extension_type in value:
                 return key
 
@@ -221,6 +215,7 @@ class AutomatedMaid(FileSystemEventHandler):
         # Verify that the modification was not done in the
         # DEFAULT_FOLDERS
         if event_path not in DEFAULT_FOLDERS:
+            self.create_default_folders()
             self.execute_cleanup()
 
     def execute_cleanup(self):
@@ -230,8 +225,6 @@ class AutomatedMaid(FileSystemEventHandler):
             Takes care of the cleanup in the Downloads folder whenever
             a new file/folder is added to it
         """
-
-        self.create_default_folders()
 
         for filename in self.cleaner.get_immediate_dir():
             if filename not in DEFAULT_FOLDERS:
@@ -255,14 +248,13 @@ if __name__ == '__main__':
     maid = AutomatedMaid()
     logger = Logger()
 
-    # ext = maid.get_file_extension('dan.hdna.mp3')
-    # print(ext)
+    maid.execute_cleanup()
 
     observer = Observer()
     observer.schedule(maid, os.getenv("DIR_TO_WATCH"), recursive=True)
-    observer.start()
 
     logger.write(f'Starting up the observer!!')
+    observer.start()
 
     try:
         pass
@@ -270,5 +262,3 @@ if __name__ == '__main__':
         observer.stop()
 
     observer.join()
-    # logger = Logger()
-    # logger.write('Works', 'info')
