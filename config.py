@@ -1,4 +1,3 @@
-# Sets our defaults folder names
 DEFAULT_FOLDERS = [
     'Music',
     'Videos',
@@ -18,5 +17,5 @@ EXTENSION_TYPES = {
     'Documents': ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'],
     'Archived': ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'],
     'Torrent Files': ['torrent'],
-    'Images': ['jpg', 'gif', 'png', 'tiff', 'eps'],
+    'Images': ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'],
 }

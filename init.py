@@ -248,6 +248,7 @@ if __name__ == '__main__':
     maid = AutomatedMaid()
     logger = Logger()
 
+    maid.create_default_folders()
     maid.execute_cleanup()
 
     observer = Observer()
