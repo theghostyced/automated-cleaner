@@ -364,3 +364,579 @@ INFO - 2019-08-24 14:10:21,049 - root - logger - Checking the immediate director
 INFO - 2019-08-24 14:10:26,012 - root - logger - Checking the immediate directories of the . folder
 INFO - 2019-08-24 14:10:33,651 - root - logger - Checking the immediate directories of the . folder
 INFO - 2019-08-24 14:10:42,550 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-02 15:43:44,188 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:45:14,091 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:45:14,095 - root - logger - Automated Maid
+INFO - 2019-09-02 15:46:30,020 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:46:30,026 - root - logger - Automated Maid
+INFO - 2019-09-02 15:46:50,942 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:46:50,945 - root - logger - Automated Maid
+INFO - 2019-09-02 15:47:18,202 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:47:18,203 - root - logger - Automated Maid
+INFO - 2019-09-02 15:47:37,434 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:47:37,435 - root - logger - Automated Maid
+INFO - 2019-09-02 15:47:54,658 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:47:54,667 - root - logger - Automated Maid
+INFO - 2019-09-02 15:48:06,253 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:48:06,258 - root - logger - Automated Maid
+INFO - 2019-09-02 15:49:36,242 - root - logger - Automated Maid
+INFO - 2019-09-02 15:49:36,242 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:49:48,142 - root - logger - Automated Maid
+INFO - 2019-09-02 15:49:48,143 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:49:48,145 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-02 15:49:48,145 - root - logger - Checking if the given path IMG_20190703_140022_331.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking file extension type of IMG_20190703_140022_331.jpg
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,146 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,147 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,147 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,147 - root - logger - Creating the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,147 - root - logger - Moving IMG_20190703_140022_331.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,147 - root - logger - Checking if the given path medium.svg is a valid directory
+INFO - 2019-09-02 15:49:48,148 - root - logger - Checking file extension type of medium.svg
+INFO - 2019-09-02 15:49:48,148 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,148 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,148 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,148 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,149 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,149 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,149 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,149 - root - logger - Creating the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,149 - root - logger - Moving medium.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,149 - root - logger - Checking if the given path nigeria.svg is a valid directory
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking file extension type of nigeria.svg
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,150 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,151 - root - logger - Moving nigeria.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,151 - root - logger - Checking if the given path danial-ricaros-FCHlYvR5gJI-unsplash.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,151 - root - logger - Checking file extension type of danial-ricaros-FCHlYvR5gJI-unsplash.jpg
+INFO - 2019-09-02 15:49:48,151 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,151 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,152 - root - logger - Moving danial-ricaros-FCHlYvR5gJI-unsplash.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking if the given path ghost.svg is a valid directory
+INFO - 2019-09-02 15:49:48,152 - root - logger - Checking file extension type of ghost.svg
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,153 - root - logger - Moving ghost.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking if the given path NaturalLineBrushes.zip is a valid directory
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking file extension type of NaturalLineBrushes.zip
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,154 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,155 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,155 - root - logger - Creating the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,155 - root - logger - Moving NaturalLineBrushes.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,156 - root - logger - Checking if the given path Heebo.zip is a valid directory
+INFO - 2019-09-02 15:49:48,156 - root - logger - Checking file extension type of Heebo.zip
+INFO - 2019-09-02 15:49:48,157 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,157 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,157 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,157 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,157 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,157 - root - logger - Moving Heebo.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking if the given path InVision_DesignSystemsHandbook.pdf is a valid directory
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking file extension type of InVision_DesignSystemsHandbook.pdf
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if pdf exist there
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if pdf exist there
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking through ['app', 'dmg'] if pdf exist there
+INFO - 2019-09-02 15:49:48,158 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if pdf exist there
+INFO - 2019-09-02 15:49:48,159 - root - logger - Creating the /Users/danieleze/Downloads/Documents/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,159 - root - logger - Moving InVision_DesignSystemsHandbook.pdf to the /Users/danieleze/Downloads/Documents/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,160 - root - logger - Checking if the given path vertical-scroll.svg is a valid directory
+INFO - 2019-09-02 15:49:48,161 - root - logger - Checking file extension type of vertical-scroll.svg
+INFO - 2019-09-02 15:49:48,161 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,161 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,161 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,161 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,162 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,162 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,162 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,162 - root - logger - Moving vertical-scroll.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,162 - root - logger - Checking if the given path graphik-cufonfonts-webfont.zip is a valid directory
+INFO - 2019-09-02 15:49:48,163 - root - logger - Checking file extension type of graphik-cufonfonts-webfont.zip
+INFO - 2019-09-02 15:49:48,163 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,164 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,164 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,164 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,164 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,164 - root - logger - Moving graphik-cufonfonts-webfont.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,164 - root - logger - Checking if the given path icons8-python(1).svg is a valid directory
+INFO - 2019-09-02 15:49:48,165 - root - logger - Checking file extension type of icons8-python(1).svg
+INFO - 2019-09-02 15:49:48,165 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,166 - root - logger - Moving icons8-python(1).svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,167 - root - logger - Checking if the given path NaturalLineBrushes is a valid directory
+INFO - 2019-09-02 15:49:48,167 - root - logger - Creating the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,167 - root - logger - Moving NaturalLineBrushes to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,168 - root - logger - Checking if the given path Robots.2005.1080p.BrRip.x264.YIFY.mp4 is a valid directory
+INFO - 2019-09-02 15:49:48,168 - root - logger - Checking file extension type of Robots.2005.1080p.BrRip.x264.YIFY.mp4
+INFO - 2019-09-02 15:49:48,169 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if mp4 exist there
+INFO - 2019-09-02 15:49:48,169 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if mp4 exist there
+INFO - 2019-09-02 15:49:48,169 - root - logger - Creating the /Users/danieleze/Downloads/Videos/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,169 - root - logger - Moving Robots.2005.1080p.BrRip.x264.YIFY.mp4 to the /Users/danieleze/Downloads/Videos/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,169 - root - logger - Checking if the given path swift(1).svg is a valid directory
+INFO - 2019-09-02 15:49:48,170 - root - logger - Checking file extension type of swift(1).svg
+INFO - 2019-09-02 15:49:48,170 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,170 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,170 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,170 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,171 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,171 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,171 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,171 - root - logger - Moving swift(1).svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,171 - root - logger - Checking if the given path FreeTutorials.Us-Udemy-The-Complete-Flutter-Development-Bootcamp-with-Dart.torrent is a valid directory
+INFO - 2019-09-02 15:49:48,171 - root - logger - Checking file extension type of FreeTutorials.Us-Udemy-The-Complete-Flutter-Development-Bootcamp-with-Dart.torrent
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['app', 'dmg'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Checking through ['torrent'] if torrent exist there
+INFO - 2019-09-02 15:49:48,172 - root - logger - Creating the /Users/danieleze/Downloads/Torrent Files/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,172 - root - logger - Moving FreeTutorials.Us-Udemy-The-Complete-Flutter-Development-Bootcamp-with-Dart.torrent to the /Users/danieleze/Downloads/Torrent Files/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,173 - root - logger - Checking if the given path eina-03-bold.ttf is a valid directory
+INFO - 2019-09-02 15:49:48,173 - root - logger - Checking file extension type of eina-03-bold.ttf
+INFO - 2019-09-02 15:49:48,173 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if ttf exist there
+INFO - 2019-09-02 15:49:48,173 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking through ['app', 'dmg'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking through ['torrent'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if ttf exist there
+INFO - 2019-09-02 15:49:48,174 - root - logger - Moving eina-03-bold.ttf to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,174 - root - logger - Checking if the given path medium-size.svg is a valid directory
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking file extension type of medium-size.svg
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,175 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,176 - root - logger - Moving medium-size.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking if the given path arif-riyanto-vJP-wZ6hGBg-unsplash.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking file extension type of arif-riyanto-vJP-wZ6hGBg-unsplash.jpg
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,176 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,177 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,177 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,177 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,177 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,177 - root - logger - Moving arif-riyanto-vJP-wZ6hGBg-unsplash.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,177 - root - logger - Checking if the given path FreeTutorialsUS.com-Udemy-Socket-IO-with-websockets-the-details-socket-io-v2.torrent.zip is a valid directory
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking file extension type of FreeTutorialsUS.com-Udemy-Socket-IO-with-websockets-the-details-socket-io-v2.torrent.zip
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,178 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,179 - root - logger - Moving FreeTutorialsUS.com-Udemy-Socket-IO-with-websockets-the-details-socket-io-v2.torrent.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,179 - root - logger - Checking if the given path contrast.svg is a valid directory
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking file extension type of contrast.svg
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,180 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,181 - root - logger - Moving contrast.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,181 - root - logger - Checking if the given path move.svg is a valid directory
+INFO - 2019-09-02 15:49:48,181 - root - logger - Checking file extension type of move.svg
+INFO - 2019-09-02 15:49:48,182 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,182 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,182 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,182 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,183 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,183 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,183 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,183 - root - logger - Moving move.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,183 - root - logger - Checking if the given path graphik-cufonfonts-webfont is a valid directory
+INFO - 2019-09-02 15:49:48,188 - root - logger - Moving graphik-cufonfonts-webfont to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,188 - root - logger - Checking if the given path apercu-cufonfonts-webfont.zip is a valid directory
+INFO - 2019-09-02 15:49:48,189 - root - logger - Checking file extension type of apercu-cufonfonts-webfont.zip
+INFO - 2019-09-02 15:49:48,189 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,189 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,192 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,193 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,193 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,193 - root - logger - Moving apercu-cufonfonts-webfont.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,194 - root - logger - Checking if the given path Little.2019.720p.WEBRip.x264-[YTS.LT].mp4 is a valid directory
+INFO - 2019-09-02 15:49:48,195 - root - logger - Checking file extension type of Little.2019.720p.WEBRip.x264-[YTS.LT].mp4
+INFO - 2019-09-02 15:49:48,195 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if mp4 exist there
+INFO - 2019-09-02 15:49:48,195 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if mp4 exist there
+INFO - 2019-09-02 15:49:48,196 - root - logger - Moving Little.2019.720p.WEBRip.x264-[YTS.LT].mp4 to the /Users/danieleze/Downloads/Videos/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,196 - root - logger - Checking if the given path Tech Vlogs is a valid directory
+INFO - 2019-09-02 15:49:48,208 - root - logger - Moving Tech Vlogs to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,208 - root - logger - Checking if the given path React-icon.svg is a valid directory
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking file extension type of React-icon.svg
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,209 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,210 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,210 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,210 - root - logger - Moving React-icon.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,210 - root - logger - Checking if the given path udemy-line-art-master.zip.folx is a valid directory
+INFO - 2019-09-02 15:49:48,217 - root - logger - Moving udemy-line-art-master.zip.folx to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,217 - root - logger - Checking if the given path cjharris-0918-Trap-Classic.mp3 is a valid directory
+INFO - 2019-09-02 15:49:48,218 - root - logger - Checking file extension type of cjharris-0918-Trap-Classic.mp3
+INFO - 2019-09-02 15:49:48,218 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if mp3 exist there
+INFO - 2019-09-02 15:49:48,218 - root - logger - Creating the /Users/danieleze/Downloads/Music/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,218 - root - logger - Moving cjharris-0918-Trap-Classic.mp3 to the /Users/danieleze/Downloads/Music/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,219 - root - logger - Checking if the given path muzli-colors.svg is a valid directory
+INFO - 2019-09-02 15:49:48,219 - root - logger - Checking file extension type of muzli-colors.svg
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,220 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,221 - root - logger - Moving muzli-colors.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,221 - root - logger - Checking if the given path icons8-ios.svg is a valid directory
+INFO - 2019-09-02 15:49:48,222 - root - logger - Checking file extension type of icons8-ios.svg
+INFO - 2019-09-02 15:49:48,222 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,222 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,223 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,223 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,223 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,224 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,224 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,225 - root - logger - Moving icons8-ios.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,225 - root - logger - Checking if the given path iconmonstr-medium-1.svg is a valid directory
+INFO - 2019-09-02 15:49:48,227 - root - logger - Checking file extension type of iconmonstr-medium-1.svg
+INFO - 2019-09-02 15:49:48,227 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,227 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,228 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,228 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,228 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,229 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,229 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,230 - root - logger - Moving iconmonstr-medium-1.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,230 - root - logger - Checking if the given path Linocut Illustrator Brushes is a valid directory
+INFO - 2019-09-02 15:49:48,243 - root - logger - Moving Linocut Illustrator Brushes to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,244 - root - logger - Checking if the given path flask-logo-44C507ABB7-seeklogo.com.png is a valid directory
+INFO - 2019-09-02 15:49:48,244 - root - logger - Checking file extension type of flask-logo-44C507ABB7-seeklogo.com.png
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-02 15:49:48,245 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if png exist there
+INFO - 2019-09-02 15:49:48,246 - root - logger - Moving flask-logo-44C507ABB7-seeklogo.com.png to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,246 - root - logger - Checking if the given path GitHub-Logos is a valid directory
+INFO - 2019-09-02 15:49:48,253 - root - logger - Moving GitHub-Logos to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,253 - root - logger - Checking if the given path Visual_Studio_Code_1.18_icon.svg is a valid directory
+INFO - 2019-09-02 15:49:48,254 - root - logger - Checking file extension type of Visual_Studio_Code_1.18_icon.svg
+INFO - 2019-09-02 15:49:48,254 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,254 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,255 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,255 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,255 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,255 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,256 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,256 - root - logger - Moving Visual_Studio_Code_1.18_icon.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,256 - root - logger - Checking if the given path github-logo.svg is a valid directory
+INFO - 2019-09-02 15:49:48,257 - root - logger - Checking file extension type of github-logo.svg
+INFO - 2019-09-02 15:49:48,258 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,258 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,258 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,259 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,259 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,260 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,260 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,260 - root - logger - Moving github-logo.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,261 - root - logger - Checking if the given path HandBrake-1.2.2.dmg is a valid directory
+INFO - 2019-09-02 15:49:48,262 - root - logger - Checking file extension type of HandBrake-1.2.2.dmg
+INFO - 2019-09-02 15:49:48,262 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if dmg exist there
+INFO - 2019-09-02 15:49:48,262 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if dmg exist there
+INFO - 2019-09-02 15:49:48,263 - root - logger - Checking through ['app', 'dmg'] if dmg exist there
+INFO - 2019-09-02 15:49:48,263 - root - logger - Creating the /Users/danieleze/Downloads/Applications/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,264 - root - logger - Moving HandBrake-1.2.2.dmg to the /Users/danieleze/Downloads/Applications/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,265 - root - logger - Checking if the given path Linocut-Illustrator-Brushes.zip is a valid directory
+INFO - 2019-09-02 15:49:48,266 - root - logger - Checking file extension type of Linocut-Illustrator-Brushes.zip
+INFO - 2019-09-02 15:49:48,266 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,266 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,266 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,266 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,267 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,267 - root - logger - Moving Linocut-Illustrator-Brushes.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,267 - root - logger - Checking if the given path Black and Red Laser Games Logo.png is a valid directory
+INFO - 2019-09-02 15:49:48,274 - root - logger - Checking file extension type of Black and Red Laser Games Logo.png
+INFO - 2019-09-02 15:49:48,274 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-02 15:49:48,274 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-02 15:49:48,275 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-02 15:49:48,275 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-02 15:49:48,275 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-02 15:49:48,275 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-02 15:49:48,275 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if png exist there
+INFO - 2019-09-02 15:49:48,276 - root - logger - Moving Black and Red Laser Games Logo.png to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,276 - root - logger - Checking if the given path night.svg is a valid directory
+INFO - 2019-09-02 15:49:48,276 - root - logger - Checking file extension type of night.svg
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,277 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,278 - root - logger - Moving night.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,278 - root - logger - Checking if the given path css-3.svg is a valid directory
+INFO - 2019-09-02 15:49:48,278 - root - logger - Checking file extension type of css-3.svg
+INFO - 2019-09-02 15:49:48,278 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,278 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,279 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,279 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,279 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,279 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,279 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,280 - root - logger - Moving css-3.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,280 - root - logger - Checking if the given path bg-halftone-black-20p@2x.png is a valid directory
+INFO - 2019-09-02 15:49:48,281 - root - logger - Checking file extension type of bg-halftone-black-20p@2x.png
+INFO - 2019-09-02 15:49:48,281 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-02 15:49:48,281 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-02 15:49:48,281 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-02 15:49:48,282 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-02 15:49:48,282 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-02 15:49:48,282 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-02 15:49:48,282 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if png exist there
+INFO - 2019-09-02 15:49:48,283 - root - logger - Moving bg-halftone-black-20p@2x.png to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,283 - root - logger - Checking if the given path nodejs-icon.svg is a valid directory
+INFO - 2019-09-02 15:49:48,283 - root - logger - Checking file extension type of nodejs-icon.svg
+INFO - 2019-09-02 15:49:48,283 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,283 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,283 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,284 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,284 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,284 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,284 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,285 - root - logger - Moving nodejs-icon.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,285 - root - logger - Checking if the given path daniel-korpai-Y3LGWCsrgmg-unsplash.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,286 - root - logger - Checking file extension type of daniel-korpai-Y3LGWCsrgmg-unsplash.jpg
+INFO - 2019-09-02 15:49:48,286 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,286 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,287 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,287 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,287 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,287 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,287 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,288 - root - logger - Moving daniel-korpai-Y3LGWCsrgmg-unsplash.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,288 - root - logger - Checking if the given path DaVinci_Resolve_16.0_Mac.zip is a valid directory
+INFO - 2019-09-02 15:49:48,288 - root - logger - Checking file extension type of DaVinci_Resolve_16.0_Mac.zip
+INFO - 2019-09-02 15:49:48,288 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,288 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,289 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,289 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,289 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,289 - root - logger - Moving DaVinci_Resolve_16.0_Mac.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,290 - root - logger - Checking if the given path Tech Vlogs-20190825T201802Z-001.zip is a valid directory
+INFO - 2019-09-02 15:49:48,297 - root - logger - Checking file extension type of Tech Vlogs-20190825T201802Z-001.zip
+INFO - 2019-09-02 15:49:48,297 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,297 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,298 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,298 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,298 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,299 - root - logger - Moving Tech Vlogs-20190825T201802Z-001.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,299 - root - logger - Checking if the given path Black and Red Laser Games Logo(1).png is a valid directory
+INFO - 2019-09-02 15:49:48,300 - root - logger - Checking file extension type of Black and Red Laser Games Logo(1).png
+INFO - 2019-09-02 15:49:48,301 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-02 15:49:48,301 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-02 15:49:48,302 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-02 15:49:48,302 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-02 15:49:48,303 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-02 15:49:48,303 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-02 15:49:48,304 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if png exist there
+INFO - 2019-09-02 15:49:48,305 - root - logger - Moving Black and Red Laser Games Logo(1).png to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,305 - root - logger - Checking if the given path slack-2.svg is a valid directory
+INFO - 2019-09-02 15:49:48,306 - root - logger - Checking file extension type of slack-2.svg
+INFO - 2019-09-02 15:49:48,306 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,307 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,307 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,308 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,308 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,308 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,308 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,308 - root - logger - Moving slack-2.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,308 - root - logger - Checking if the given path simon-abrams-k_T9Zj3SE8k-unsplash.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking file extension type of simon-abrams-k_T9Zj3SE8k-unsplash.jpg
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,309 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,310 - root - logger - Moving simon-abrams-k_T9Zj3SE8k-unsplash.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,310 - root - logger - Checking if the given path arnold-francisca-f77Bh3inUpE-unsplash.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,310 - root - logger - Checking file extension type of arnold-francisca-f77Bh3inUpE-unsplash.jpg
+INFO - 2019-09-02 15:49:48,310 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,310 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,310 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,311 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,311 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,311 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,311 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,311 - root - logger - Moving arnold-francisca-f77Bh3inUpE-unsplash.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,311 - root - logger - Checking if the given path GitHub-Logos.zip is a valid directory
+INFO - 2019-09-02 15:49:48,312 - root - logger - Checking file extension type of GitHub-Logos.zip
+INFO - 2019-09-02 15:49:48,312 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if zip exist there
+INFO - 2019-09-02 15:49:48,312 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if zip exist there
+INFO - 2019-09-02 15:49:48,312 - root - logger - Checking through ['app', 'dmg'] if zip exist there
+INFO - 2019-09-02 15:49:48,312 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if zip exist there
+INFO - 2019-09-02 15:49:48,313 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if zip exist there
+INFO - 2019-09-02 15:49:48,313 - root - logger - Moving GitHub-Logos.zip to the /Users/danieleze/Downloads/Archived/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,313 - root - logger - Checking if the given path Cartoon Brushes.ai is a valid directory
+INFO - 2019-09-02 15:49:48,314 - root - logger - Checking file extension type of Cartoon Brushes.ai
+INFO - 2019-09-02 15:49:48,314 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if ai exist there
+INFO - 2019-09-02 15:49:48,314 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if ai exist there
+INFO - 2019-09-02 15:49:48,314 - root - logger - Checking through ['app', 'dmg'] if ai exist there
+INFO - 2019-09-02 15:49:48,315 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if ai exist there
+INFO - 2019-09-02 15:49:48,315 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if ai exist there
+INFO - 2019-09-02 15:49:48,315 - root - logger - Checking through ['torrent'] if ai exist there
+INFO - 2019-09-02 15:49:48,315 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if ai exist there
+INFO - 2019-09-02 15:49:48,316 - root - logger - Moving Cartoon Brushes.ai to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,316 - root - logger - Checking if the given path icons8-python.svg is a valid directory
+INFO - 2019-09-02 15:49:48,316 - root - logger - Checking file extension type of icons8-python.svg
+INFO - 2019-09-02 15:49:48,316 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,316 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,316 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,317 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,317 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,317 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,317 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,317 - root - logger - Moving icons8-python.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,317 - root - logger - Checking if the given path %E2%80%AA+254 715 769330%E2%80%AC 20181027_125358.jpg is a valid directory
+INFO - 2019-09-02 15:49:48,318 - root - logger - Checking file extension type of %E2%80%AA+254 715 769330%E2%80%AC 20181027_125358.jpg
+INFO - 2019-09-02 15:49:48,318 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if jpg exist there
+INFO - 2019-09-02 15:49:48,318 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if jpg exist there
+INFO - 2019-09-02 15:49:48,320 - root - logger - Checking through ['app', 'dmg'] if jpg exist there
+INFO - 2019-09-02 15:49:48,320 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if jpg exist there
+INFO - 2019-09-02 15:49:48,321 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if jpg exist there
+INFO - 2019-09-02 15:49:48,321 - root - logger - Checking through ['torrent'] if jpg exist there
+INFO - 2019-09-02 15:49:48,321 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if jpg exist there
+INFO - 2019-09-02 15:49:48,322 - root - logger - Moving %E2%80%AA+254 715 769330%E2%80%AC 20181027_125358.jpg to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,322 - root - logger - Checking if the given path Portfolio.fig is a valid directory
+INFO - 2019-09-02 15:49:48,323 - root - logger - Checking file extension type of Portfolio.fig
+INFO - 2019-09-02 15:49:48,323 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if fig exist there
+INFO - 2019-09-02 15:49:48,323 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if fig exist there
+INFO - 2019-09-02 15:49:48,323 - root - logger - Checking through ['app', 'dmg'] if fig exist there
+INFO - 2019-09-02 15:49:48,324 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if fig exist there
+INFO - 2019-09-02 15:49:48,324 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if fig exist there
+INFO - 2019-09-02 15:49:48,325 - root - logger - Checking through ['torrent'] if fig exist there
+INFO - 2019-09-02 15:49:48,325 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if fig exist there
+INFO - 2019-09-02 15:49:48,325 - root - logger - Moving Portfolio.fig to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,325 - root - logger - Checking if the given path audacity-macosx-ub-2.1.1-screen-reader.dmg is a valid directory
+INFO - 2019-09-02 15:49:48,326 - root - logger - Checking file extension type of audacity-macosx-ub-2.1.1-screen-reader.dmg
+INFO - 2019-09-02 15:49:48,327 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if dmg exist there
+INFO - 2019-09-02 15:49:48,328 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if dmg exist there
+INFO - 2019-09-02 15:49:48,328 - root - logger - Checking through ['app', 'dmg'] if dmg exist there
+INFO - 2019-09-02 15:49:48,329 - root - logger - Moving audacity-macosx-ub-2.1.1-screen-reader.dmg to the /Users/danieleze/Downloads/Applications/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,329 - root - logger - Checking if the given path react.svg is a valid directory
+INFO - 2019-09-02 15:49:48,330 - root - logger - Checking file extension type of react.svg
+INFO - 2019-09-02 15:49:48,331 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,331 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,331 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,331 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,331 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,332 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,332 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,334 - root - logger - Moving react.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,334 - root - logger - Checking if the given path handshake.svg is a valid directory
+INFO - 2019-09-02 15:49:48,334 - root - logger - Checking file extension type of handshake.svg
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,335 - root - logger - Moving handshake.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking if the given path swift.svg is a valid directory
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking file extension type of swift.svg
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,336 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,337 - root - logger - Moving swift.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,337 - root - logger - Checking if the given path about.png is a valid directory
+INFO - 2019-09-02 15:49:48,337 - root - logger - Checking file extension type of about.png
+INFO - 2019-09-02 15:49:48,337 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if png exist there
+INFO - 2019-09-02 15:49:48,338 - root - logger - Moving about.png to the /Users/danieleze/Downloads/Images/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,338 - root - logger - Checking if the given path slack.svg is a valid directory
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking file extension type of slack.svg
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,339 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,340 - root - logger - Moving slack.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,340 - root - logger - Checking if the given path eina-03-semibold.ttf is a valid directory
+INFO - 2019-09-02 15:49:48,340 - root - logger - Checking file extension type of eina-03-semibold.ttf
+INFO - 2019-09-02 15:49:48,340 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if ttf exist there
+INFO - 2019-09-02 15:49:48,340 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if ttf exist there
+INFO - 2019-09-02 15:49:48,340 - root - logger - Checking through ['app', 'dmg'] if ttf exist there
+INFO - 2019-09-02 15:49:48,341 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if ttf exist there
+INFO - 2019-09-02 15:49:48,341 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if ttf exist there
+INFO - 2019-09-02 15:49:48,341 - root - logger - Checking through ['torrent'] if ttf exist there
+INFO - 2019-09-02 15:49:48,342 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if ttf exist there
+INFO - 2019-09-02 15:49:48,343 - root - logger - Moving eina-03-semibold.ttf to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,343 - root - logger - Checking if the given path Heebo is a valid directory
+INFO - 2019-09-02 15:49:48,345 - root - logger - Moving Heebo to the /Users/danieleze/Downloads/Folders/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,346 - root - logger - Checking if the given path Postgresql.svg is a valid directory
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking file extension type of Postgresql.svg
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if svg exist there
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if svg exist there
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking through ['app', 'dmg'] if svg exist there
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if svg exist there
+INFO - 2019-09-02 15:49:48,347 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if svg exist there
+INFO - 2019-09-02 15:49:48,348 - root - logger - Checking through ['torrent'] if svg exist there
+INFO - 2019-09-02 15:49:48,348 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'] if svg exist there
+INFO - 2019-09-02 15:49:48,348 - root - logger - Moving Postgresql.svg to the /Users/danieleze/Downloads/Others/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,348 - root - logger - Checking if the given path y2mate.com - joakim_karud_dreams_rQO8escJC78.mp3 is a valid directory
+INFO - 2019-09-02 15:49:48,349 - root - logger - Checking file extension type of y2mate.com - joakim_karud_dreams_rQO8escJC78.mp3
+INFO - 2019-09-02 15:49:48,349 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if mp3 exist there
+INFO - 2019-09-02 15:49:48,350 - root - logger - Moving y2mate.com - joakim_karud_dreams_rQO8escJC78.mp3 to the /Users/danieleze/Downloads/Music/September 02, 2019 path
+INFO - 2019-09-02 15:49:48,454 - root - logger - Starting up the observer!!
+INFO - 2019-09-02 15:50:23,032 - root - logger - Automated Maid
+INFO - 2019-09-02 15:50:23,032 - root - logger - Initialising the cleaner
+INFO - 2019-09-02 15:50:23,032 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-02 15:50:23,039 - root - logger - Starting up the observer!!

@@ -17,5 +17,5 @@ EXTENSION_TYPES = {
     'Documents': ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'],
     'Archived': ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'],
     'Torrent Files': ['torrent'],
-    'Images': ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps'],
+    'Images': ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps', 'svg'],
 }

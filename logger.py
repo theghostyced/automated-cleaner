@@ -1,7 +1,10 @@
 from pathlib import Path
+from pyfiglet import figlet_format
+from termcolor import colored
 
 import logging
 import datetime
+import random
 
 
 class Logger:
@@ -48,7 +51,7 @@ class Logger:
             'exception': logger.exception
         }
 
-    def write(self, msg: str, type: str = 'info'):
+    def write(self, msg: str, type: str = 'info', font='doom', figlet=False):
         """
         Description
         -----------
@@ -65,8 +68,15 @@ class Logger:
         -------
             None
         """
+
+        COLORS = ['green', 'cyan']
+
         try:
-            print(msg)
+            if not figlet:
+                print(colored(msg, random.choice(COLORS)))
+            else:
+                print(colored(figlet_format(msg, font), 'cyan'))
+
             self.LOGGING_LEVELS[type](msg)
         except:
             raise ('Invalid logging level provided!')

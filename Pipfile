@@ -11,6 +11,8 @@ watchdog = "*"
 python-dotenv = "*"
 schedule = "*"
 yapf = "*"
+pyfiglet = "*"
+termcolor = "*"
 
 [requires]
 python_version = "3.7"

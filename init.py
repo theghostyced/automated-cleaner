@@ -40,6 +40,8 @@ class AutomatedMaid(FileSystemEventHandler):
         self.destination_dir = os.getenv("DESTINATION_DIR")
 
         self.logger = Logger()
+
+        self.logger.write(f'Automated Maid', figlet=True)
         self.cleaner = Cleaner()
 
     def create_default_folders(self):
