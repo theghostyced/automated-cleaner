@@ -940,3 +940,49 @@ INFO - 2019-09-02 15:50:23,032 - root - logger - Automated Maid
 INFO - 2019-09-02 15:50:23,032 - root - logger - Initialising the cleaner
 INFO - 2019-09-02 15:50:23,032 - root - logger - Checking the immediate directories of the . folder
 INFO - 2019-09-02 15:50:23,039 - root - logger - Starting up the observer!!
+INFO - 2019-09-03 09:15:23,739 - root - logger - Automated Maid
+INFO - 2019-09-03 09:15:23,740 - root - logger - Initialising the cleaner
+INFO - 2019-09-03 09:15:23,741 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-03 09:15:23,741 - root - logger - Checking if the given path ced.png is a valid directory
+INFO - 2019-09-03 09:15:23,742 - root - logger - Checking file extension type of ced.png
+INFO - 2019-09-03 09:15:23,742 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-03 09:15:23,742 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-03 09:15:23,743 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-03 09:15:23,743 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-03 09:15:23,743 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-03 09:15:23,743 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-03 09:15:23,744 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps', 'svg'] if png exist there
+INFO - 2019-09-03 09:15:23,745 - root - logger - Creating the /Users/danieleze/Downloads/Images/September 03, 2019 path
+INFO - 2019-09-03 09:15:23,745 - root - logger - Moving ced.png to the /Users/danieleze/Downloads/Images/September 03, 2019 path
+INFO - 2019-09-03 09:15:23,746 - root - logger - Checking if the given path Screenshot 2019-03-04 at 9.55.00 PM.png is a valid directory
+INFO - 2019-09-03 09:15:23,746 - root - logger - Checking file extension type of Screenshot 2019-03-04 at 9.55.00 PM.png
+INFO - 2019-09-03 09:15:23,746 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if png exist there
+INFO - 2019-09-03 09:15:23,746 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if png exist there
+INFO - 2019-09-03 09:15:23,746 - root - logger - Checking through ['app', 'dmg'] if png exist there
+INFO - 2019-09-03 09:15:23,747 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if png exist there
+INFO - 2019-09-03 09:15:23,747 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if png exist there
+INFO - 2019-09-03 09:15:23,747 - root - logger - Checking through ['torrent'] if png exist there
+INFO - 2019-09-03 09:15:23,747 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps', 'svg'] if png exist there
+INFO - 2019-09-03 09:15:23,748 - root - logger - Moving Screenshot 2019-03-04 at 9.55.00 PM.png to the /Users/danieleze/Downloads/Images/September 03, 2019 path
+INFO - 2019-09-03 09:15:23,748 - root - logger - Checking if the given path Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf is a valid directory
+INFO - 2019-09-03 09:15:23,748 - root - logger - Checking file extension type of Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf
+INFO - 2019-09-03 09:15:23,748 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if pdf exist there
+INFO - 2019-09-03 09:15:23,748 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if pdf exist there
+INFO - 2019-09-03 09:15:23,749 - root - logger - Checking through ['app', 'dmg'] if pdf exist there
+INFO - 2019-09-03 09:15:23,749 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if pdf exist there
+INFO - 2019-09-03 09:15:23,749 - root - logger - Creating the /Users/danieleze/Downloads/Documents/September 03, 2019 path
+INFO - 2019-09-03 09:15:23,751 - root - logger - Moving Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf to the /Users/danieleze/Downloads/Documents/September 03, 2019 path
+INFO - 2019-09-03 09:15:23,997 - root - logger - Starting up the observer!!
+INFO - 2019-09-03 09:15:31,763 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-03 09:22:53,668 - root - logger - Checking the immediate directories of the . folder
+INFO - 2019-09-03 09:22:53,668 - root - logger - Checking if the given path ezgif-5-57779bf78523.gif is a valid directory
+INFO - 2019-09-03 09:22:53,668 - root - logger - Checking file extension type of ezgif-5-57779bf78523.gif
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['mp3', 'wav', 'aif', 'mid'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['mp4', 'avi', '3gp', 'ogg', 'flv', 'wmv'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['app', 'dmg'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['txt', 'doc', 'pdf', 'odt', 'rtf', 'tex', 'wpd', 'docx'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['zip', 'tar', '7z', 'rar', 'gz', 'sitx', 'iso'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['torrent'] if gif exist there
+INFO - 2019-09-03 09:22:53,669 - root - logger - Checking through ['jpg', 'jpeg', 'gif', 'png', 'tiff', 'eps', 'svg'] if gif exist there
+INFO - 2019-09-03 09:22:53,670 - root - logger - Moving ezgif-5-57779bf78523.gif to the /Users/danieleze/Downloads/Images/September 03, 2019 path
+INFO - 2019-09-03 09:22:53,693 - root - logger - Checking the immediate directories of the . folder
